@@ -1,0 +1,101 @@
+body {
+    font-family: 'Merriweather';
+    margin: 0;
+  }
+  html{
+    background: url();
+  }
+  
+  #content {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+         
+        }
+  .text-center{
+          text-align: center
+        }
+  #main {
+    color: blue;
+  }
+  
+  #favorite {
+    padding: 0 320px 0 20px;
+    background-color: #3498db;
+    color:white;
+    font-size: 150%;
+    
+  }
+  #intro{
+    background-color: #3498db;
+    color: white;
+    padding: 0 320px 0 20px;
+  }
+  #sidebar{
+    padding: 0 320px 0 20px;
+    background-color: #3498db;
+    color: white;
+  }
+  #myself{
+    background-color:#dff9fb;
+    color: #636e72;
+    padding: 0 320px 0 20px;
+    line-height:20px;
+  }
+  .wrapper{
+    position: relative;
+  }
+  #hobbies{
+     background-color:#dff9fb;
+    color: #636e72;
+    text-indent: 25px;
+    font-size: 100%; 
+   
+  }
+  #lienlac{
+    background-color:#dff9fb;
+    color: #636e72;
+    font-size: 150%; 
+  }
+  #communi{
+    padding: 0 320px 0 20px;
+    font-size: 100%; 
+    background-color: #3498db;
+    color: white;
+  }
+  *{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: url();
+    min-height: 100vh;
+}
+#search-box{
+    background-color: #fff;
+    border-radius: 30px;
+}
+#search-box #search-text{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 0;
+    padding: 0;
+    transition: all 0.025s ease-in-out;S
+}
+#search-box:hover #search-text, #search-box #search-text:valid{
+    width: 250px;
+    padding: 10px 0px 10px 15px;
+}
+#search-box #search-btn{
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 15px 15px ;
+    border-radius: 50%;
+}
+  
+  
